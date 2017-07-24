@@ -44,31 +44,31 @@ p{
 /* 橙，黄，蓝,青 ,绿*/
 
 .level1{
-    background: -webkit-linear-gradient(to right, blue, blue);
-    background: -moz-linear-gradient(to right, blue, blue);
-    background: -o-linear-gradient(to right, blue, blue);
-    background: linear-gradient(to right, blue, blue);
+    background-color:#0404d2;
+    background-image: repeating-linear-gradient(-45deg, #1454F2, #1454F2 1.6rem, #0404d2 1.6rem, #0404d2 3.2rem);
+    background-size: auto 100%;
+    animation: barberpole 12s linear infinite;
 }
 
-.level2{
-    background: -webkit-linear-gradient(to right, cyan, cyan);
-    background: -moz-linear-gradient(to right, cyan, cyan);
-    background: -o-linear-gradient(to right, cyan, cyan);
-    background: linear-gradient(to right, cyan, cyan);
+.level2{    
+    background-color:#0404d2;
+    background-image: repeating-linear-gradient(-45deg,#94d2b2, #94d2b2 1.6rem, #04d2d2 1.6rem,#04d2d2 3.2rem);
+    background-size: auto 100%;
+    animation: barberpole 12s linear infinite;
 } 
 
 .level3{
-    background: -webkit-linear-gradient(to right, orange, orange);
-    background: -moz-linear-gradient(to right, orange, orange);
-    background: -o-linear-gradient(to right, orange, orange);
-    background: linear-gradient(to right, orange, orange);
+    background-color:#0404d2;
+    background-image: repeating-linear-gradient(-45deg,#928904, #928904 1.6rem, #d28904 1.6rem,#d28904 3.2rem);
+    background-size: auto 100%;
+    animation: barberpole 12s linear infinite;
 }
 
 .level4{
-    background: -webkit-linear-gradient(to right, yellow, yellow);
-    background: -moz-linear-gradient(to right, yellow, yellow);
-    background: -o-linear-gradient(to right, yellow, yellow);
-    background: linear-gradient(to right, yellow, yellow);
+    background-color:#0404d2;
+    background-image: repeating-linear-gradient(-45deg,#a2d204, #a2d204 1.6rem, #d2d204 1.6rem,#d2d204 3.2rem);
+    background-size: auto 100%;
+    animation: barberpole 12s linear infinite;
 }  
 
 .level5{
@@ -78,4 +78,92 @@ p{
     background: linear-gradient(to right, green, green);
 }
    
+@keyframes barberpole {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 23rem 0%;
+  }
+}
+.skill-level[data-percent="5"] {
+  width: 5%;
+}
+
+.skill-level [data-percent="10"] {
+  width: 10%;
+}
+
+.skill-level [data-percent="15"] {
+  width: 15%;
+}
+
+.skill-level [data-percent="20"] {
+  width: 20%;
+}
+
+.skill-level [data-percent="25"] {
+  width: 25%;
+}
+
+.skill-level [data-percent="30"] {
+  width: 30%;
+}
+
+.skill-level [data-percent="35"] {
+  width: 35%;
+}
+
+.skill-level [data-percent="40"] {
+  width: 40%;
+}
+
+.skill-level [data-percent="45"] {
+  width: 45%;
+}
+
+.skill-level [data-percent="50"] {
+  width: 50%;
+}
+
+.skill-level [data-percent="55"] {
+  width: 55%;
+}
+
+.skill-level [data-percent="60"] {
+  width: 60%;
+}
+
+.skill-level [data-percent="65"] {
+  width: 65%;
+}
+
+.skill-level [data-percent="70"] {
+  width: 70%;
+}
+
+.skill-level [data-percent="75"] {
+  width: 75%;
+}
+
+.skill-level [data-percent="80"] {
+  width: 80%;
+}
+
+.skill-level [data-percent="85"] {
+  width: 85%;
+}
+
+.skill-level [data-percent="90"] {
+  width: 90%;
+}
+
+.skill-level [data-percent="95"] {
+  width: 95%;
+}
+
+.skill-level[data-percent="100"] {
+  width: 100%;
+}
        

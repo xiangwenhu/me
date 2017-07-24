@@ -9,12 +9,15 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            width: 100%
+            width: 100%;
+            color: white;
+            background: linear-gradient(to bottom, #680 10%, #698 60%);
+            font-family: "Times New Roman", Georgia, Serif;
         }
 
         #container {
             display: flex;
-            padding: 3rem;
+            padding: 1rem 3rem 0rem 3rem;
         }
 
         .right,
@@ -23,7 +26,8 @@
             height: 40rem;
             overflow: auto;
             flex: 1 1 50%;
-            position: relative
+            position: relative;
+            box-shadow: 0 0 0.3rem 0.15rem black;
         }
 
         .center {
@@ -38,13 +42,37 @@
             line-height: 2rem;
             height: 2rem;
             font-size: 1.6rem;
+            padding: auto;
             margin: 0.2rem;
             width: 4rem;
+            background-color: #3bb3e0;
+            position: relative;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            color: #fff;
+            border: solid 1px #186f8f;
+            background-image: linear-gradient(bottom, rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%);
+            box-shadow: 0 0 0.6rem 0.3rem black;
+            border-radius: 0.2rem;
+            display: inline-block;
+        }
+
+        p {
+            padding: 2rem 0 0 3rem;
+            font-size: 1.4rem;
+            color: #0B040C
+        }
+
+        div[contenteditable] {
+            cursor: hand
         }
     </style>
 </head>
 
 <body>
+    <p>
+        说明：转码为base64拖拽仅仅支持单个文件的拖拽，文件格式 'application/javascript', 'text/plain'
+    </p>
     <div id='container'>
         <div contenteditable='true' class='left'></div>
         <div class="center">
